@@ -1,0 +1,14 @@
+/plextrac
+/dist/
+coverage.out
+coverage.html
+.env
+.env.local
+*.test
+.idea/
+.vscode/
+.DS_Store
+.claude/
+/*.yml
+/*.yaml
+docs/
