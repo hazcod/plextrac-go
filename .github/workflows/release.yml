@@ -37,7 +37,7 @@ jobs:
 
       - name: Set up GoReleaser
         if: steps.semver.outputs.version != ''
-        uses: goreleaser/goreleaser-action@v6
+        uses: goreleaser/goreleaser-action@v7
         with:
           version: latest
           args: release --clean --config .github/.goreleaser.yml
